@@ -18,6 +18,5 @@ guess_the_number() {
         fi
     done
 }
-
 # Here, I am running the function
 guess_the_number
