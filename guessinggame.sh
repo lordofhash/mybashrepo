@@ -1,3 +1,6 @@
+#!/usr/bin/env bash
+
+# Function to prompt the user and check their guess
 guess_the_number() {
     local correct_number=$(ls -1 | wc -l)
     local guess
@@ -16,4 +19,5 @@ guess_the_number() {
     done
 }
 
+# Here, I am running the function
 guess_the_number
